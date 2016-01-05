@@ -7,7 +7,7 @@
 2. [Variables](#variables)
   1. [Strings](#strings)
   2. [Numbers](#numbers)
-3. [If Statment](#if_statement)
+3. [If Statement](#if_statement)
 4. [For Loop](#for_loop)
 5. [Arrays](#arrays)
   1. [Array Filtering](#array_filtering)
@@ -63,16 +63,62 @@ A variable is **declared** using `var` and uses the equals sign to **define** th
 
 now you can make a variable and use the function  `console.log()` to print its value.
 
-```
-var thisisaVar = "Hello World"
-console.log("thisisaVar")
+```js
+var thisisaVar = "Hello World";
+console.log("thisisaVar");
 
 ```
 <div id='strings'/>
 #### Strings
 
+A **string** is any value surrounded by quotes.
+
+It can be single or double quotes:
+
+```js
+'this is a string'
+
+"this is also a string"
+```
+
+```js
+var someString = 'this is a string';
+```
+
+you can acces the lenght of the string
+
+```js
+console.log(someString.length)
+```
+
+on `node` you can use `Tab` key to see all the methods that a `String` has.
+
+for example 
+
+```js
+someString.toUpperCase()
+```
+
 <div id='numbers'/>
 #### Numbers
+
+
+Numbers can be integers, like `2`, `14`, or `4353`, or they can be decimals,  
+also known as floats, like `3.14`, `1.5`, or `100.7893423`.
+Unlike Strings, Numbers do not need to have quotes.
+
+```js
+var thisisaNumber = 100.3232;
+var thisisaAnotherNumber = 1203;
+```
+then you can use `console.log()`  to print its value
+
+```js
+console.log(thisisaNumber)
+console.log(thisisaAnotherNumber)
+```
+
+
 <div id='if_statement'/>
 ### If Statement 
 
