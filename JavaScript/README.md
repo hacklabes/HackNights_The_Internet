@@ -21,8 +21,7 @@ You can learn basics of JavaScript interactively through the [javascripting](htt
 ```
 npm install --global javascripting
 ```
-<div id='introduction'/>
-### Introduction
+###Introduction
 
 You can use the `node` application to interpret you javascript commands 
 
