@@ -10,11 +10,11 @@
 3. [If Statement](#if-statement)
 4. [For Loop](#for-loop)
 5. [Arrays](#arrays)
-  1. [Array Filtering](#array_filtering)
-  2. [Accesing Array Values](#accesing_array_values)
-6. [Looping Through Arrays](#looping_through_arrays)
+  1. [Array Filtering](#array-filtering)
+  2. [Accesing Array Values](#accesing-array-values)
+6. [Looping Through Arrays](#looping-through-arrays)
 7. [Functions](#functions)
-8. [Functions Arguments](#functions_arguments)
+8. [Functions Arguments](#functions-arguments)
 
 You can learn basics of JavaScript interactively through the [javascripting](https://github.com/sethvincent/javascripting) npm package 
 
@@ -37,8 +37,7 @@ console.log('hello world');
 
 the output is the print of the string 'hello world'. 
 
-<div id='variables'/>
-### Variables
+###Variables
 
 A variable is a name that can reference a specific value. Variables are declared using `var` followed by the variable's name.
 
@@ -67,8 +66,7 @@ var thisisaVar = "Hello World";
 console.log("thisisaVar");
 
 ```
-<div id='strings'/>
-#### Strings
+####Strings
 
 A **string** is any value surrounded by quotes.
 
@@ -98,8 +96,7 @@ for example
 someString.toUpperCase()
 ```
 
-<div id='numbers'/>
-#### Numbers
+####Numbers
 
 
 Numbers can be integers, like `2`, `14`, or `4353`, or they can be decimals,  
@@ -118,8 +115,7 @@ console.log(thisisaAnotherNumber)
 ```
 
 
-<div id='if_statement'/>
-### If Statement 
+###If Statement 
 
 Conditional statements are used to alter the control flow of a program, based on a specified boolean condition.
 
@@ -138,19 +134,9 @@ Inside parentheses you must enter a logic statement, meaning that the result of 
 The else block is optional and contains the code that will be executed if the statement is false.
 
 ###For Loop
-
-<div id='arrays'/>
-### Arrays
-<div id='array_filtering'/>
-### Array Filtering
-
-<div id='accesing_array_values'/>
+###Arrays
+###Array Filtering
 #### Accesing Array Values
-
-<div id='looping_through_arrays'/>
-#### Looping Through Arrays
-
-<div id='functions'/>
-### Functions
-<div id='functions_arguments'/>
-#### Functions Arguments
+####Looping Through Arrays
+###Functions
+####Functions Arguments
